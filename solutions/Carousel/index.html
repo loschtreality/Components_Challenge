@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Carousel</title>
+    <!-- Comment in for JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> -->
+    <style media="screen">
+        /* Styles */
+        .carousel-container {
+          border: 1px solid red;
+          position: relative;
+          height: 500px;
+          width: 800px;
+          margin: 0 auto;
+        }
+
+        .images {
+          background-color: black;
+        }
+
+        .carousel-image {
+          box-sizing: border-box;
+          height: 100%;
+          max-width: 800px;
+          display: none;
+        }
+
+        .image-active {
+          display: inline;
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+
+        .bars {
+          position: absolute;
+          bottom: 10px;
+          margin: 0 auto;
+          z-index: 2;
+        }
+
+        .bar {
+          height: 5px;
+          width: 25px;
+          background-color: grey;
+          display: inline-block;
+          margin: 0 5px;
+        }
+
+        .bar-active {
+          background-color: #fff;
+        }
+
+        .carousel-arrow {
+          color: white;
+          text-shadow: 1px 1px 2px black;
+          font-size: 1.5em;
+          position: absolute;
+          z-index: 2;
+          transition: text-shadow 0.5s;
+        }
+
+        .carousel-arrow:hover {
+          text-shadow: 3px 3px 10px black;
+          cursor: pointer;
+        }
+
+        .arrow-left {
+          top: 50%;
+          left: 5%;
+        }
+
+        .arrow-right {
+          top: 50%;
+          right: 5%;
+        }
+
+    </style>
+</head>
+
+<body>
+  <div class="carousel-container">
+    <span class="carousel-arrow arrow-left"><</span>
+    <span class="carousel-arrow arrow-right">></span>
+    <div class="images">
+      <div class="bars"></div>
+    </div>
+  </div>
+</body>
+<script src="vanilla.js" charset="utf-8"></script>
+<!-- <script src="jquery.js" charset="utf-8"></script> -->
+
+</html>

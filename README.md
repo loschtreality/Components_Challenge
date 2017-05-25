@@ -29,6 +29,6 @@ This repository is always seeking improvements and
 ## Guidelines
 Clone this repository and find the starter template in the `src` directory. The challenges are not in any particular order,
 so complete them however you see fit. Each section has an example of what the expected outcome should be. The functionality is more important than
-the styling.
+the styling. You are allowed to use JQuery or Vanilla JS however it is prohibited to use any CSS framework such as Bootstrap.
 
 ## Helpful Resources
