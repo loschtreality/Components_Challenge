@@ -1,0 +1,63 @@
+.container {
+  margin: auto;
+}
+
+.card {
+  padding: 10px;
+  border: 3px solid rgba(218, 218, 218, 0.75);
+  width: 30%;
+}
+
+.collapse-group {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.collapse-item {
+  margin: 0;
+}
+
+.collapse-hide {
+  display: none;
+}
+
+
+.collapse-title {
+  width: 100%;
+  background-color: rgba(112, 128, 144, 0.85);
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-color: grey;
+  margin: 0;
+  padding: 3px 0;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.collapse-title:hover {
+  cursor: pointer;
+}
+
+.collapse-title a {
+  text-decoration: none;
+}
+
+.collapse-title a:active {
+  color: inherit;
+}
+
+.collapse-content {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: grey;
+  margin: 0;
+  width: 100%;
+  border-radius: 0px 0px 3px 3px;
+}
+
+
+.collapse-text {
+  padding: 10px;
+  margin: 0;
+}
