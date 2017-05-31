@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  float: right;
+  padding: 0;
+  width: 70%;
+  margin-right: 8%;
+}
+
+.drawer {
+  background-color: white;
+  bottom: 0;
+  box-shadow: 1px 1px 3px black;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 20%;
+  z-index: 3;
+}
+
+.hidden {
+  display: none;
+}
+
+.drawer-list {
+  list-style: none;
+  text-align: left;
+}
+
+.drawer-list > li {
+  border-bottom: 1px solid grey;
+  margin: 10px 0px;
+}
+
+.drawer-list a {
+  text-decoration: none;
+}
+
+.drawer-button {
+  margin: 0 auto;
+}
+
+.shader {
+  background-color: rgba(50, 50, 50, 0.3);
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
